@@ -1,0 +1,24 @@
+.NewItem {
+  box-sizing: border-box;
+  margin-buttom: 20px;
+}
+.NewItem input {
+  width: 100%;
+  border: 0;
+  font-size: 16px;
+}
+.NewItem div {
+  padding: 10px 15px; 
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.NewItem button {
+  padding: 4px 16px;
+  border: 0;
+  background: radial-gradient(circle, rgba(92,179,190,1) 100%, rgba(150,215,224,1) 0%);
+  border-radius: 12px;
+  color: #ffffff;
+}

@@ -1,0 +1,21 @@
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  border-top: 1px solid #cccccc66;
+  width: 100%;
+  font-size: 14px;
+  background-color: #eeeeee66;
+}
+
+table th {
+  background-color:#ffffff;
+  padding: 12px 0px;
+}
+
+table td {
+  padding: 12px 0px;
+}
+
+.is-even {
+  background-color: #ffffff;
+}

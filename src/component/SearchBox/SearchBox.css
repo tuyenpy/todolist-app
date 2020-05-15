@@ -1,0 +1,35 @@
+.SearchBox {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(124, 146, 205, 0.7);
+  width: 70%;
+  margin: 50px auto;
+  padding: 5px 5px 5px 5px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  
+}
+
+.SearchBox img {
+  width: 30px;
+  background-color:  #4A36EB;
+  padding: 5px;
+  border-radius: 50%;
+  display: hidden;
+}
+
+.SearchBox input {
+  width: 100%;
+  font-size: 16px;
+  border: 0;
+  margin: 0px 10px;
+  padding: 10px 0px
+}
+
+::placeholder {
+  color: #7C92CD;
+}
+
+.border-red {
+  border-color: #F00;
+}
