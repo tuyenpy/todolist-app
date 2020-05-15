@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  position: relative;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #555555;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(92,179,190,1) 0%, rgba(150,215,224,1) 100%);
+  padding: 0px 14px;
+  width: 70%;
+  margin: 30px auto;
+  min-height: 640px;
+}
+
+.App #add-item {
+  position: absolute;
+  bottom: 4px;
+  width: 40px;
+  transform: translateX(-50%);
+}

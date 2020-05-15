@@ -1,0 +1,78 @@
+.LoginForm-group {
+  box-sizing: border-box;
+  margin: auto;
+  width: 70%;
+  line-height: 1.2;
+}
+.LoginForm h1 {
+  padding: 50px 10px;
+}
+
+.LoginForm-item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 0px 2px 5px;
+  box-shadow: 0px 0px 3px #cccccc;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.LoginForm-item input {
+  border: 0px;
+  padding: 4px 0px;
+  font-size: 16px;
+  color: #555555;
+}
+
+.LoginForm-group ::placeholder {
+  font-size: 10px;
+}
+
+.LoginForm-btn {
+  display: block;
+  width: 100%;
+  padding: 13px 0px;
+  margin-top: 30px;
+  border: 0;
+  background-color: #00BD56f0;
+  box-shadow: 0px 0px 3px #cccccc;
+  border-radius: 3px;
+  color: #ffffff;  
+  font-weight: bold;
+}
+
+.LoginForm-btn:hover {
+  background-color: #00BD56;
+}
+
+.LoginForm-checkbox label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #555555cc;
+}
+
+.LoginForm-forget {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  font-size: 12px;
+  font-style: italic;
+  padding: 20px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}

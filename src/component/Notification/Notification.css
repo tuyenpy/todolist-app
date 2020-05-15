@@ -1,0 +1,18 @@
+.Notification {
+  position: relative;
+  width: 50px;
+  margin: 50px auto;
+}
+.Notification-bell {
+  width: 40px;
+}
+
+.Notification-dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 11px;
+  height: 11px;
+  background-color: #BF1513;
+  border-radius: 50%;
+}

@@ -1,0 +1,20 @@
+.RecommendedFriend {
+  padding: 0px 8px;  
+}
+.RecommendedFriend-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  font-size: 13px;
+}
+
+.RecommendedFriend-header a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.RecommendedFriend-header a:first-child {
+  color: #33333366;
+  font-weight: 600;
+  font-size: 14px;
+}

@@ -1,0 +1,29 @@
+.StatusBar img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+.StatusBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.StatusBar-item {
+  display: flex;
+  align-items: center;
+}
+
+.StatusBar-item:last-child p {
+  margin-right: 3px;
+}
+
+.StatusBar-item span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  margin-right: 2px;
+  background-color: #333333;
+}

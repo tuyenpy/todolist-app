@@ -1,0 +1,28 @@
+.Head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 18px;
+  font-weight: bold;
+  font-size: 13px;
+  box-shadow: 1px 0px 2px #cccccc;
+}
+
+.Head-back img {
+  vertical-align: middle;
+  
+}
+.Head-back span {
+  padding-left: 10px;
+}
+
+.Head-logo img {
+  width: 150px;
+}
+
+.Head-signup span {
+  box-shadow: 0px 0px 2px #cccccc;
+  border-radius: 5px;
+  padding: 4px 16px;
+
+}

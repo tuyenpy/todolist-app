@@ -1,0 +1,21 @@
+.isDone {
+  text-decoration: line-through;
+}
+
+.TodoItem {
+  background-color: #ffffff;
+  padding: 15px 10px;
+  margin-top: 8px;
+  border-radius: 3px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TodoItem img {
+  width: 20px;
+}
